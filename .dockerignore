@@ -1,0 +1,26 @@
+*
+
+# Entrypoint
+!entrypoint.sh
+
+# Source code
+!index.html
+!src/
+!public/
+
+# Vite
+!vite.config.ts
+
+# Trailbase
+!traildepot/
+
+# Typescript
+!tsconfig.json
+
+# Dependencies
+!package.json
+!bun.lock
+
+# Re ignore
+.DS_Store
+**/.DS_Store

@@ -1,0 +1,12 @@
+services:
+  trailbase:
+    image: "trailbase/trailbase:latest"
+    ports:
+      - "4000:4000"
+    environment:
+      - PUBLIC_DIR=traildepot/dist
+      - SPA=true
+    volumes:
+      - type: bind
+        source: ./traildepot
+        target: /app/traildepot
